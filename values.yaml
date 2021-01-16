@@ -233,7 +233,7 @@ containerPorts:
 ## For minikube, set this to NodePort, elsewhere use LoadBalancer
 ##
 service:
-  type: LoadBalancer
+  type: ClusterIP
   # HTTP Port
   port: 80
   # HTTPS Port
